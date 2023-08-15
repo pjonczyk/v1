@@ -20,7 +20,7 @@ export default function ExperienceCard({
         <p>{text}</p>
         <ul>
           {tags.map((map) => {
-            return <li>{map}</li>;
+            return <li key={map}>{map}</li>;
           })}
         </ul>
       </div>
