@@ -1,19 +1,30 @@
 export default function About() {
   return (
-    <section id="about">
-      <p>
+    <section id="about" className="leading-relaxed">
+      <p className="mb-5">
         {
-          "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I've had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation."
+          <span>
+            Back in 2014, I started studying computer science at Saarland
+            University and soon realized that software development and
+            architecture is what I enjoy the most. Fast-forward to today, and
+            I&apos;ve had the privilege of building software for a{" "}
+            <a
+              href="https://www.dfki.de/"
+              target="_blank"
+              className="text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+            >
+              research center
+            </a>{" "}
+            and a large corporation.
+          </span>
         }
       </p>
-      <p>
+      <p className="mb-5">
         {
-          "My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
-        }
-      </p>
-      <p>
-        {
-          "When I'm not at the computer, I'm usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds Korokseeds."
+          <span>
+            My main focus these days is to get to know more frontend and backend
+            technologies and libraries in order to increase my technology stack.
+          </span>
         }
       </p>
     </section>
