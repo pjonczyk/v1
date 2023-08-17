@@ -7,7 +7,7 @@ export default function About() {
             Back in 2014, I started studying computer science at Saarland
             University and soon realized that software development and
             architecture is what I enjoy the most. Fast-forward to today, and
-            I've had the privilege of building software for a{" "}
+            I&apos;ve had the privilege of building software for a{" "}
             <a
               href="https://www.dfki.de/"
               target="_blank"
