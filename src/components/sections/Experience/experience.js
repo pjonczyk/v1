@@ -98,7 +98,10 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="mt-32 mb-20">
+    <section id="experience" className="mt-10 lg:mt-32 mb-20 scroll-mt-24">
+      <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only pb-4">
+        Experience
+      </h2>
       <ol>
         {experiences.map((experience) => {
           return (
