@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section id="about" className="leading-relaxed">
+    <section id="about" className="leading-relaxed scroll-mt-24">
+      <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only pb-4">
+        About
+      </h2>
       <p className="mb-5">
         {
           <span>
@@ -19,6 +22,7 @@ export default function About() {
           </span>
         }
       </p>
+
       <p className="mb-5">
         {
           <span>

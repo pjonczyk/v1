@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Philipp Jonczyk",
   description:
-    "Philipp Jonczyk is a software engineer who builds accesible, modern products and digital experiences for the web.",
+    "Philipp Jonczyk is a software engineer who builds accessible, modern products and digital experiences for the web.",
 };
 
 export default function RootLayout({ children }) {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           inter.className
         }
       >
-        <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24 ">
+        <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24 pt-8 sm:pt-0">
           {children}
         </div>
       </body>

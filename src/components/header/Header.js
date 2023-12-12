@@ -20,11 +20,11 @@ export default function Header() {
           Software Engineer at CosmosDirekt
         </h2>
         <p className="leading-normal mt-4 max-w-xs">
-          I build accesible, modern products and digital experiences for the
+          I build accessible, modern products and digital experiences for the
           web.
         </p>
         <nav>
-          <ul className="mt-16 w-max">
+          <ul className="hidden lg:block mt-16 w-max">
             {navItems.map((item) => {
               const active = item === activeSection;
               return (
